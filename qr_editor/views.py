@@ -27,7 +27,7 @@ def get_qr_template(request):
     if 'errorCorrectionLevel' in request.POST:
         error = request.POST['errorCorrectionLevel']
 
-    urlPrefix = 'HTTPS://MY-QR.ART/R'
+    urlPrefix = 'HTTPS://QR.HACK.AF/'
     if 'customUrlPrefix' in request.POST:
         urlPrefix = request.POST['customUrlPrefix'].upper()
     
